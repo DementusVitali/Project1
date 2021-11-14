@@ -8,6 +8,5 @@ public class LoginTest extends Simpletest {
     public void loginTest(){
         user.mainPages.openMainpage();
         user.mainPages.ClickOnSignInButton();
-        user.mainPages.fillInEmailAddress("automationstep@fmail.com");
     }
 }

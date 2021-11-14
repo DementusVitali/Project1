@@ -13,9 +13,6 @@ public class MainPage extends BasePage {
     @FindBy(css = "a.login")
     private WebElement signInButton;
 
-    @FindBy(id = "email")
-    private WebElement emailField;
-
     public MainPage(WebDriver driver) {
         super(driver);
     }
@@ -24,10 +21,5 @@ public class MainPage extends BasePage {
     }
     public void clickSigninButton() {
              element(signInButton).click();
-
-     }
-    public void fillEmailAddress(String email){
-      element(emailField).sendKeys(email);
     }
-
-}
+    }

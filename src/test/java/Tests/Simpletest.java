@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 @RunWith(SerenityRunner.class)
 public abstract class Simpletest {
 
-        @Managed(driver = "chrome",uniqueSession = true)
+        @Managed(driver = "chrom",uniqueSession = true)
         private WebDriver driver;
 
 
